@@ -1,7 +1,8 @@
 nav {
     position: relative;
     top: 39px;
-    width: 80%;
+    width: 100%;
+    margin: auto;
 }
 
 ul {
@@ -10,10 +11,13 @@ ul {
 }
 li {
     display: inline;
+    z-index: 110;
+
 }
 
 a {
-    padding-right: 21%;
+    padding: 0px 137px;
     font-size: 30px;
     color: white;
+    z-index: 110;
 }
