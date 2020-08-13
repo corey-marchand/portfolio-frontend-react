@@ -1,0 +1,89 @@
+.input{
+    width: 100%;
+    height: 44px;
+}
+
+.div-container {
+    width: 100%;
+    /* margin: auto; */
+    position: fixed;
+    margin-left: -27%;
+    margin-right: 5%;}
+
+.git {
+    position: relative;
+    top: 160px;
+    /* right: -706px; */
+    width: 10%;
+    margin-left: 39%;
+    margin-right: 51%;
+    z-index: 99;
+    align-content: center;
+}
+
+.git-subtext {
+    position: relative;
+    top: 170px;
+    z-index: 99;
+    right: -700px;
+}
+.form-input {
+    width: 50%;
+    position: relative;
+    top: 191px;
+    right: -61px;
+}
+
+.sm-link{
+    position: relative;
+    right: -58px;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+h2 {
+    position: relative;
+    right: -65px;
+}
+text {
+    color: white;
+}
+
+.form {
+    color: white;
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: none;
+    opacity: .75;
+}
+
+.social-media {
+    float: right;
+    position: relative;
+    top: -141px;
+    left: -65px
+}
+
+fieldset {
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: black;
+}
+
+button {
+    position: relative;
+    bottom: -200px;
+    right: -61px;
+}
+
+.background-div {
+    background-color: white;
+    width: 980px;
+    position: relative;
+    z-index: 101;
+}
