@@ -1,26 +1,49 @@
 .about-information-container {
-    width: 680px;
+    width: 1150px;
     position: relative;
     right: -268px;
     top: 141px;
+    border-top: solid white;
 }
 
 .toolbox-section {
-    float: right;
+    margin-right: 14%;
+    width: 20%;
+    margin-left: auto;
     color: white;
+    position: relative;
+    top: -433px;
 }
 
+
 .text-section {
-    float: left;
+    margin-left: 14%;
     width: 40%;
+    font-size: 25px;
 }
 
 .about-header{
     color: white;
     position: relative;
     right: 0px;
+    font-size: 40px;
 }
 
 .toolbox-list {
     list-style: none;
+}
+
+.skill-section {
+    float: right;
+    color: white;
+}
+
+.skill-list {
+    list-style: none;
+}
+
+.tool-box-list-item {
+    color: white;
+    height: 20px;
+    width: 40px;
 }

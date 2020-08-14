@@ -19,7 +19,7 @@ export default class Portfolio extends React.Component{
                 </div>
                 <div className="wrap">
                     <div className="card">
-                        <img src={photo} alt="img" width="100%" height="100%"/>
+                        <img src={photo} alt="img" width="75%" height="75%"/>
                         <div className="container">
                             <h4><b>Vegan Cosmetics</b></h4>
                             <p>Python</p>
