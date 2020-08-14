@@ -8,6 +8,7 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    padding-top: 15px;
     transition: 0.4s;
     width: 300px;
     background-color: #0F2626;
@@ -30,4 +31,12 @@
     background-color: #1A2426;
     z-index: 101;
 
+}
+
+.portfolio-title {
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    top: 170px;
+    right: -371px;
 }

@@ -1,15 +1,20 @@
 import Nav from '../../components/nav/Nav';
 import React from 'react';
 import photo from '../../assets/portfolio-wireframe.png';
+import VeganPhoto from '../../assets/vegan-med-code.png';
+import CaseHawkPhoto from '../../assets/casehawk-code.png';
+import FoodiePhoto from '../../assets/foodie-journals.png';
+
 import './portfolio.component.styles.scss';
 
 export default class Portfolio extends React.Component{
     render(){
         return(
-            <>
+            <>  
+                <h3 className="portfolio-title">PAST PROJECTS</h3>
                 <div className="wrap">
                     <div className="card">
-                        <img src={photo} alt="img" width="100%" height="100%"/>
+                        <img src={photo} alt="img" width="250px" height="220px"/>
                         <div className="container">
                             <h4><b>Foodies Journal</b></h4>
                             <p>Django/NextJs</p>
@@ -19,7 +24,7 @@ export default class Portfolio extends React.Component{
                 </div>
                 <div className="wrap">
                     <div className="card">
-                        <img src={photo} alt="img" width="75%" height="75%"/>
+                        <img src={VeganPhoto} alt="img" width="250px" height="220px"/>
                         <div className="container">
                             <h4><b>Vegan Cosmetics</b></h4>
                             <p>Python</p>
@@ -29,7 +34,7 @@ export default class Portfolio extends React.Component{
                 </div>
                 <div className="wrap">
                     <div className="card">
-                        <img src={photo} alt="img" width="100%" height="100%"/>
+                        <img src={CaseHawkPhoto} alt="img" width="250px" height="220px"/>
                         <div className="container">
                             <h4><b>Case Hawk</b></h4>
                             <p>NodeJs</p>
@@ -39,9 +44,9 @@ export default class Portfolio extends React.Component{
                 </div>
                 <div className="wrap">
                     <div className="card">
-                        <img src={photo} alt="img" width="100%" height="100%"/>
+                        <img src={FoodiePhoto} alt="img" width="250px" height="220px"/>
                         <div className="container">
-                            <h4><b>Shiftometry</b></h4>
+                            <h4><b>Foodie Journals</b></h4>
                             <p>Vanilla JavaScript</p>
                             <p>Shiftometry is a game that my team created when we first learned JavaScript. A simple game, yet addicting.  Utilizing different technoligies, you have to match the shape to the correct word as it moves faster and faster with each go.</p>
                         </div>

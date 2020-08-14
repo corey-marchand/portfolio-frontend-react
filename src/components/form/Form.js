@@ -56,7 +56,7 @@ export default class Form extends React.Component {
                         <div className="social-media">
                             <h3>Connect with me</h3>
                             <h2>LinkedIn:</h2>
-                            <a href className="sm-link">www.linkedin.com</a>
+                            <a href className="sm-link">www.linkedin.com/in/corey-marchand/</a>
                             <h2>Instagram:</h2>
                             <a href className="sm-link">www.instagram.com</a>
                             <h2>FaceBook:</h2>

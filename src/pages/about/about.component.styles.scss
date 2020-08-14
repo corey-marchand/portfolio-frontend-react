@@ -1,8 +1,9 @@
 .about-information-container {
     width: 1150px;
+    height: 625px;
     position: relative;
-    right: -268px;
-    top: 141px;
+    right: -290px;
+    top: 60px;
     border-top: solid white;
 }
 
@@ -12,7 +13,7 @@
     margin-left: auto;
     color: white;
     position: relative;
-    top: -433px;
+    top: -756px;
 }
 
 
@@ -22,7 +23,7 @@
     font-size: 25px;
 }
 
-.about-header{
+.text-header{
     color: white;
     position: relative;
     right: 0px;
@@ -30,20 +31,60 @@
 }
 
 .toolbox-list {
-    list-style: none;
+    display: block;
+    position: relative;
+    right: 28px;
 }
 
 .skill-section {
-    float: right;
+    margin-right: 14%;
+    width: 20%;
+    margin-left: auto;
     color: white;
+    position: relative;
+    top: -756px;
+}
+.skillset-list {
+    display: block;
+    position: relative;
+    right: 27px;
 }
 
-.skill-list {
-    list-style: none;
-}
-
-.tool-box-list-item {
+.toolbox-list-item {
     color: white;
-    height: 20px;
+    // height: 20px;
     width: 40px;
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    right: -75px;
+    top: -10px;
+}
+
+.toolbox-title {
+    font-size: 40px;
+}
+
+.toolbox-skill-item {
+    color: white;
+    // height: 20px;
+    width: 40px;
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    right: -75px;
+    top: -10px;
+}
+
+.skill-title {
+    font-size: 40px;
+}
+
+.about-header{
+    color: white;
+    position: relative;
+    font-weight: lighter;
+    right: -348px;
+    bottom: -80px;
+    font-size: 50px;
 }

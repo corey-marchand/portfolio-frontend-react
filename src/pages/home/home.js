@@ -6,8 +6,8 @@ export default class Home extends React.Component{
         return(
             <>
                 <div className="home-div-container">
-                    <h2 className="home-title">I'M COREY MARCHAND</h2>
-                    <text className="home-under-text"> A Full-Stack Python/Javascript Developer</text>
+                    <h2 className="home-title">COREY MARCHAND</h2>
+                    <text className="home-under-text">Full-Stack Python/Javascript Developer</text>
                 </div>
             </>
         )
